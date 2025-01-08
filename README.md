@@ -1,26 +1,38 @@
 # Zomato_Data_Analysis
 
-Overview
+Project Overview: Advanced SQL Problem-Solving with Zomato Data
+This project demonstrates my expertise in SQL by analyzing and solving complex business challenges for Zomato, one of India's leading food delivery platforms. The project covers the end-to-end process of database creation, data cleaning, and insightful problem-solving using advanced SQL techniques.
 
-This project showcases my SQL problem-solving skills by analyzing data for Zomato, a leading food delivery company in India. The project focuses on setting up the database, importing and cleaning data, and solving various business challenges using advanced SQL queries.
+Key Highlights
+Data Sources:
+The dataset comprises five key CSV files, each representing a different aspect of Zomato's operations:
 
-Project Structure
+orders.csv: Order details, including timestamps and order IDs.
+riders.csv: Rider information, including assignments and performance.
+restaurants.csv: Restaurant details, such as location, opening time.
+customers.csv: Customer demographics and behavioral data.
+deliveries.csv: Delivery metrics, including times.
 
-Database Setup:
-Creation of the zomato database.
-Designing and defining the required tables with appropriate schema.
+Database Schema:
+All data was structured and cleaned using SQL scripts stored in the zomato_schema.sql file.
+The schema includes optimized relationships and constraints for seamless query execution.
+Problem Statements
 
-Data Import:
-Loading sample data into the database.
-Ensuring accurate and seamless data insertion.
+A detailed list of business challenges, framed as SQL problems, is provided in the Zomato Advanced Business Problems.pdf file.
+These problems simulate real-world decision-making scenarios such as:
+Identifying top-performing restaurants.
+Analyzing delivery times across regions.
+Understanding customer order behavior.
 
-Data Cleaning:
-Handling null values effectively.
-Maintaining data consistency and integrity.
+Solutions:
+Advanced SQL queries addressing the above challenges are documented in the zomato_solution_of_problems.sql file.
+Techniques include complex joins, window functions, subqueries, and aggregate analysis to extract actionable insights.
 
-Business Problem-Solving:
-Addressing 20 specific business questions.
-Crafting and executing complex SQL queries to provide actionable insights.
+Deliverables
+zomato_schema.sql: Comprehensive SQL file for database creation and data cleaning.
+zomato_solution_of_problems.sql: Advanced SQL solutions for business challenges.
+Zomato Advanced Business Problems.pdf: Problem statements providing the context for the SQL queries.
+
 
 Conclusion:
 This project demonstrates my proficiency in handling complex SQL queries and solving real-world business challenges within the context of a food delivery service like Zomato. It highlights a structured problem-solving approach, advanced data manipulation skills, and the capability to extract actionable insights from data effectively.
