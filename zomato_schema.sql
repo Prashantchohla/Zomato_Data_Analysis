@@ -1,4 +1,5 @@
 -- Zomato data ananlysis
+CREATE DATABASE zomato;
 
 -- Drop existing tables if they exist
 DROP TABLE IF EXISTS deliveries;
